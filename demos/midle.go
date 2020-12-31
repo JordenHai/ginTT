@@ -1,4 +1,4 @@
-package main
+package demos
 
 import (
 	"fmt"
@@ -101,7 +101,7 @@ func GroupRouterOrderMiddle2(c *gin.Context) {
 	fmt.Println("我是order路由组中间件2")
 }
 
-func main() {
+func Test() {
 	//创建一个无中间件路由
 	router := gin.New()
 	router.Use(gin.Logger())
@@ -139,4 +139,3 @@ func main() {
 
 	router.Run()
 }
-

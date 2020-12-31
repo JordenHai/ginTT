@@ -1,4 +1,4 @@
-package main
+package test
 
 import (
 	"fmt"
@@ -110,9 +110,4 @@ func test(){
 	})
 
 	route.Run()
-}
-
-func main(){
-	//upload()
-	multiUpload()
 }

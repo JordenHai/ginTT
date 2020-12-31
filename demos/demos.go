@@ -1,4 +1,4 @@
-package main
+package demos
 
 import (
 	"fmt"
@@ -38,8 +38,4 @@ func routeTest(){
 
 	route.Run()
 
-}
-
-func main(){
-	routeTest()
 }
