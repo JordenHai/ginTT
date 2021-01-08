@@ -1,6 +1,14 @@
 package main
 
+import "ginTT/test"
 
 func main() {
-	test.bindTests()
+	//test.BindTests()
+	//test.XmlAndJsonTest().Run()
+	//test.StaticDock()
+	//test.LoadHtmlTemplate()
+	test.LoadHtmlDiffPath()
 }
+
+
+
